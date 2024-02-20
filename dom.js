@@ -19,13 +19,13 @@ const div = document.createElement('div');
 div.style.border = 'black';
 div.style.backgroundColor = 'pink';
 
+    const title2 = document.createElement('h1');
+    title2.textContent = 'I\'m a div';
+    div.appendChild(title2);
 
-const title2 = document.createElement('h1');
-title2.textContent = 'I\'m a div';
-div.appendChild(title2);
-
-const para2 = document.createElement('p');
-para2.textContent = 'ME TOO!';
-div.appendChild(para2);
+    const para2 = document.createElement('p');
+    para2.textContent = 'ME TOO!';
+    div.appendChild(para2);
 
 container.appendChild(div);
+
