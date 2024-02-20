@@ -29,3 +29,5 @@ div.style.backgroundColor = 'pink';
 
 container.appendChild(div);
 
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert('Hello World');
